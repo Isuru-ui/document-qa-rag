@@ -48,8 +48,7 @@ function App() {
 
       <footer className="footer">
         <p>
-          Built with using FastAPI, ChromaDB, LangChain & Groq |
-          <a href="https://github.com/YOUR_USERNAME/document-qa-rag" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Isuru-ui/document-qa-rag" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </p>
