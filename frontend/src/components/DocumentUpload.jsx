@@ -35,7 +35,7 @@ const DocumentUpload = ({ onDocumentIngested }) => {
       const result = await ingestFile(selectedFile);
       setMessage({
         type: 'success',
-        text: `${result.message} - Created ${result.chunks_created} chunks`
+        text: result.message
       });
       onDocumentIngested(true);
       setSelectedFile(null);
@@ -59,7 +59,7 @@ const DocumentUpload = ({ onDocumentIngested }) => {
       const result = await ingestText(textInput);
       setMessage({
         type: 'success',
-        text: `${result.message} - Created ${result.chunks_created} chunks`
+        text: result.message
       });
       onDocumentIngested(true);
       setTextInput('');
