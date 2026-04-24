@@ -19,7 +19,7 @@ class VectorStore:
         model_name = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
         self.embedding_model = SentenceTransformer(model_name)
         
-        print(f"✅ Vector store initialized with model: {model_name}")
+        print(f" Vector store initialized with model: {model_name}")
     
     def add_documents(self, chunks: List[str]) -> int:
       
