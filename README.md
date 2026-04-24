@@ -14,6 +14,3 @@ A production-ready Retrieval-Augmented Generation (RAG) system that allows users
 - **RESTful API**: FastAPI with automatic OpenAPI documentation
 - **Production-Ready**: Dockerized and deployed on cloud
 
----
-
-## 🏗️ Architecture
